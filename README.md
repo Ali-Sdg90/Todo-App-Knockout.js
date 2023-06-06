@@ -1,100 +1,92 @@
-<h1>Todo App</h1>
+<h1>Todo-App-knockoutJS</h1>
 <p>
-    This is a simple JavaScript based Todo app that allows users to add, filter,
-    and clear tasks. The app uses the DOM to manipulate the HTML and
-    localStorage to save the tasks.
+    This is a sleek and visually appealing Todo-App built using Knockout.js. It
+    allows users to efficiently manage their tasks with features such as adding
+    new tasks and deleting existing ones. Tasks can be categorized into three
+    modes: active, complete, and all.
 </p>
+
 <img src="Assets/1.png" alt="Todo-App-img" />
-<h2>Getting Started</h2>
-<p>
-    To get started, simply clone or download the repository and open the
-    <code>index.html</code> file in your browser. You should be able to see the
-    Todo app interface.
-</p>
+
 <h2>Features</h2>
 <ul>
     <li>
-        Add tasks by typing into the input field and clicking the "Add" button
+        <p>
+            <strong>Add Task</strong>: Easily add new tasks to your to-do list
+            with an intuitive interface for quick entry of task details.
+        </p>
     </li>
     <li>
-        Filter tasks by clicking the "All", "Active", or "Completed" buttons
+        <p>
+            <strong>Delete Task</strong>: Remove unwanted tasks from the list
+            with a simple click, keeping your to-do list organized and
+            clutter-free.
+        </p>
     </li>
-    <li>Clear all tasks by clicking the "Clear" button</li>
     <li>
-        Tasks are saved to localStorage, so they will persist even after the
-        browser is closed or refreshed
+        <p>
+            <strong>Categorization</strong>: Categorize tasks into active,
+            complete, and all modes for convenient viewing based on completion
+            status.
+        </p>
     </li>
 </ul>
-<h2>Code Structure</h2>
+<h2>Installation</h2>
+<p>To use this Todo-App, follow the instructions below:</p>
+<ol>
+    <li>
+        <p>Clone the repository</p>
+    </li>
+    <li><p>Open the project folder in your preferred code editor.</p></li>
+    <li>
+        <p>
+            Launch the application by opening the
+            <code>index.html</code> file in a web browser.
+        </p>
+    </li>
+</ol>
+<h2>Technologies Used</h2>
 <p>
-    The app uses several variables such as <code>addBtn</code>,
-    <code>todoCounter</code>, <code>taskTasks</code>,
-    <code>pendingFilter</code>, <code>clearAll</code>, <code>todoInput</code>,
-    <code>todoList</code>, and <code>localTodo</code> to select different parts
-    of the HTML and manipulate them.
+    This Todo-App was developed using the following technologies and libraries:
 </p>
+<ul>
+    <li>
+        <strong>HTML</strong>: The standard markup language for creating the
+        structure and elements of web pages.
+    </li>
+    <li>
+        <strong>CSS</strong>: The style sheet language used for designing the
+        visual presentation of web pages.
+    </li>
+    <li>
+        <strong>JavaScript</strong>: The programming language that enables
+        dynamic behavior and interactivity in web applications.
+    </li>
+    <li>
+        <strong>Knockout.js</strong>: A powerful JavaScript library for building
+        dynamic and responsive user interfaces. Knockout.js facilitates the
+        creation of interactive web applications with a clean separation between
+        data model and view components.
+    </li>
+</ul>
+<h2>Contributing</h2>
 <p>
-    The app uses an array <code>todoSaves</code> to store the tasks and another
-    array <code>filteredTodoSaves</code> to store the filtered tasks. The
-    <code>filterTodoSavesFunc()</code> function is used to filter the tasks
-    based on the filter mode (<code>all</code>, <code>active</code>, or
-    <code>completed</code>) and the <code>updateHTML(addNewTodo)</code> function
-    is used to update the DOM and refresh the list of tasks.
+    Contributions are welcome! If you would like to contribute to this project,
+    please follow these steps:
 </p>
-<h2>Built With</h2>
-<ul>
-    <li>HTML</li>
-    <li>SCSS</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>KnockoutJS</li>
-</ul>
-<h2>Author</h2>
-<ul>
-    <li><a href="https://github.com/Ali-Sdg90" target="_new">Ali-Sdg90</a></li>
-</ul>
-<h2>Steps</h2>
-<ul>
+<ol>
+    <li><p>Fork the repository.</p></li>
+    <li><p>Create a new branch for your feature or bug fix.</p></li>
     <li>
         <p>
-            Todo Step 3 :
-            <a
-                href="https://github.com/Ali-Sdg90/Todo-App/tree/2471d1bfbd34de78b451684a90d3c6db4ac20350"
-                target="_new"
-                >GitHub</a
-            >
-            |
-            <a href="https://jsfiddle.net/Ali_Sdg90/v60okbum/" target="_new"
-                >Jsfiddle</a
-            >
+            Make your changes and commit them with descriptive commit messages.
         </p>
     </li>
+    <li><p>Push your changes to your forked repository.</p></li>
     <li>
         <p>
-            Todo Step 4 :
-            <a
-                href="https://github.com/Ali-Sdg90/Todo-App/tree/1ba75aa5ab8cb51396f7a46678a6b9791e9a0f14"
-                target="_new"
-                >GitHub</a
-            >
-            |
-            <a href="https://jsfiddle.net/Ali_Sdg90/k4Lwxare/" target="_new"
-                >Jsfiddle</a
-            >
+            Submit a pull request, explaining the changes you have made and
+            their purpose.
         </p>
     </li>
-    <li>
-        <p>
-            Todo Step 5 :
-            <a
-                href="https://github.com/Ali-Sdg90/Todo-App/tree/543a742de6327389adffd28ab8a93fe58f8ec82e"
-                target="_new"
-                >GitHub</a
-            >
-            |
-            <a href="https://jsfiddle.net/Ali_Sdg90/v7nac15g/4/" target="_new"
-                >Jsfiddle</a
-            >
-        </p>
-    </li>
-</ul>
+</ol>
