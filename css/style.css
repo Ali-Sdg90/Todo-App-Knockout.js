@@ -289,7 +289,7 @@ br {
   background: rgb(255, 109, 109);
 }
 
-svg {
+.svg {
   width: 20px;
   height: 24px;
   cursor: pointer;
