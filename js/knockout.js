@@ -101,22 +101,11 @@ VM.showTodos = ko.computed(function () {
         }
     };
 
-    // Nav position
-    if (filteredList().length < 7) {
-        let filterTop = 35.5 - filteredList().length * 3 + "vh";
-        document.getElementById("filter-nav-background").style.top = filterTop;
-        document.getElementById("filter-nav-text").style.top = filterTop;
-    } else {
-        document.getElementById("filter-nav-background").style.top = "14.85vh";
-        document.getElementById("filter-nav-text").style.top = "14.85vh";
-    }
-    console.log(filteredList());
-
     // New todo placed at the top of the list
     return filteredList().slice(0).reverse();
 });
 
-// remaining task text
+// Remaining task text
 taskTasks = ko.computed(function () {
     let output = "";
     if (VM.showTodos().length == 1) {
